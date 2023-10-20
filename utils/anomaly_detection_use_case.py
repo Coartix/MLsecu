@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 from sklearn.neighbors import LocalOutlierFactor
 
-import mlsecu.data_exploration_utils as deu
-import mlsecu.data_preparation_utils as dpu
+import utils.data_exploration_utils as deu
+import utils.data_preparation_utils as dpu
 
 def get_list_of_attack_types(dataframe):
     '''
